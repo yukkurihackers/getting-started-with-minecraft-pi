@@ -1,3 +1,5 @@
+日本語への翻訳作業を行なっています。
+
 Index
 - [Step1 What you will make](ja/step_1.md)
 - [Step2 What you will need](ja/step_2.md)
