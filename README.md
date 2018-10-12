@@ -1,3 +1,15 @@
+- [Step1 What you will make](ja/step_1.md)
+- [Step2 What you will need](ja/step_2.md)
+- [Step3 Getting Started with Minecraft Pi](ja/step_3.md)
+- [Step4 What you will make](ja/step_4.md)
+- [Step5 What you will make](ja/step_5.md)
+- [Step6 What you will make](ja/step_6.md)
+- [Step7 What you will make](ja/step_7.md)
+- [Step8 What you will make](ja/step_8.md)
+- [Step9 What you will make](ja/step_9.md)
+
+
+
 # Getting Started with Programming the Minecraft World
 
 ![](cover.png)
