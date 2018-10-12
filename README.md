@@ -1,12 +1,13 @@
+Index
 - [Step1 What you will make](ja/step_1.md)
 - [Step2 What you will need](ja/step_2.md)
 - [Step3 Getting Started with Minecraft Pi](ja/step_3.md)
-- [Step4 What you will make](ja/step_4.md)
-- [Step5 What you will make](ja/step_5.md)
-- [Step6 What you will make](ja/step_6.md)
-- [Step7 What you will make](ja/step_7.md)
-- [Step8 What you will make](ja/step_8.md)
-- [Step9 What you will make](ja/step_9.md)
+- [Step4 Run Minecraft](ja/step_4.md)
+- [Step5 Use the Python programming interface](ja/step_5.md)
+- [Step6 Dropping blocks as you walk](ja/step_6.md)
+- [Step7 Playing with TNT blocks](ja/step_7.md)
+- [Step8 Fun with flowing lava.](ja/step_8.md)
+- [Step9 What next?](ja/step_9.md)
 
 
 
