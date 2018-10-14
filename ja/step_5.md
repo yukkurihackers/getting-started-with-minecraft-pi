@@ -1,4 +1,4 @@
-## Pythonプログラミングインターフェースを使用する 
+## Use thePython programing interfece
 
 With Minecraft running, and the world created, bring your focus away from the game by pressing the `Tab` key, which will free your mouse. Open Python 3 from the application menu and move the windows so they're side-by-side.
 
