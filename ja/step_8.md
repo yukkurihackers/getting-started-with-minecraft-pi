@@ -1,4 +1,4 @@
-## Fun with flowing lava.
+## Fun with flowing lava.流れる溶岩で遊ぼう
 
 One block that's a lot of fun to play with is flowing lava.
 
