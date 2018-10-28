@@ -81,9 +81,9 @@ mc.setBlock(x+1, y, z, 2)
 
 ![](images/mcpi-setblock2.png)
 
-#### Block constants
+#### ブロック定数
 
-You can use a inbuilt block constants to set your blocks, if you know their names. You'll need another `import` line first though.
+名前を知っていれば、ブロックを設定するためにinbuiltブロック定数を使うことができます。しかし、最初に別の`import` 行が必要になります。
 
 ```python
 from mcpi import block
