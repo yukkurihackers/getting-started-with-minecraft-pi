@@ -89,13 +89,14 @@ mc.setBlock(x+1, y, z, 2)
 from mcpi import block
 ```
 
-Now you can write the following to place a block: 
+今度はブロックを配置するために次のように書きます
 
 ```python
 mc.setBlock(x+3, y, z, block.STONE.id)
 ```
 
-Block ids are pretty easy to guess, just use ALL CAPS, but here are a few examples to get you used to the way they are named.
+ブロックIDは簡単に推測することができます。すべてのCAPSを使用するだけですが、ここではその名前に慣れさせるためのいくつかの例を示します。
+
 
 ```
 WOOD_PLANKS
@@ -106,32 +107,32 @@ DIAMOND_BLOCK
 NETHER_REACTOR_CORE
 ```
 
-### Block as variable
-
-If you know the id of a block it can be useful to set it as a variable. You can use the name or the integer id.
+### ブロックを設定する
+ブロックのIDを知っていれば、それを変数として設定すると便利です。名前または整数IDを使用できます。
 
 ```python
 dirt = 3
 mc.setBlock(x, y, z, dirt)
 ```
 
-or
+または
 
 ```python
 dirt = block.DIRT.id
 mc.setBlock(x, y, z, dirt)
 ```
 
-### Special blocks
+### 特殊ブロック
 
-There are some blocks which have extra properties, such as Wool which has an extra setting you can specify the colour. To set this use the optional fourth parameter in `setBlock`:
+
+余分なプロパティを持ついくつかのブロックがあります。たとえば、色を指定できる特殊な設定を持つWoolです。これを設定するには、`setBlock`のオプションの第4パラメータを使用します。
 
 ```python
 wool = 35
 mc.setBlock(x, y, z, wool, 1)
 ```
 
-Here the fourth parameter `1` sets the wool colour to orange. Without the fourth parameter it is set to the default (`0`) which is white. Some more colours are:
+ここでは、4番目のパラメータ `1` はウールの色をオレンジ色に設定します。4番目のパラメータがなければ、デフォルト (`0`) に設定されます。これは白です。いくつかの色があります：
 
 ```
 2: Magenta
@@ -139,13 +140,13 @@ Here the fourth parameter `1` sets the wool colour to orange. Without the fourth
 4: Yellow
 ```
 
-Try some more numbers and watch the block change!
+いくつかの数字を試して、ブロックの変更を見てください！
 
-Other blocks which have extra properties are wood (`17`): oak, spruce, birch, etc; tall grass (`31`): shrub, grass, fern; torch (`50`): pointing east, west, north, south; and more. See the [API reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) for full details.
+特殊な特性を有する他のブロックは、木材 (`17`)であるオーク、トウヒ、シラカバ等。 背の高い草（31）低木、草、シダなど。松明 (`50`): 東、西、北、南を指す。 などがある。 詳細については、[API reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) を参照してください。
 
-### Set multiple blocks
+### 複数のブロックを設定する
 
-As well as setting a single block with `setBlock` you can fill in a volume of space in one go with `setBlocks`:
+`setBlock` を使用して単一のブロックを設定するだけでなく、`setBlocks`を使用して一度に多くの領域を埋めることができます。
 
 ```python
 stone = 1
@@ -153,9 +154,9 @@ x, y, z = mc.player.getPos()
 mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, stone)
 ```
 
-This will fill in a 10 x 10 x 10 cube of solid stone.
+これは、10×10×10の中の埋まった石の立方体を作るでしょう。
 
 ![](images/mcpi-setblocks.png)
 
-You can create bigger volumes with the `setBlocks` function but it may take longer to generate!
+`setBlocks`関数でより大きなボリュームを作成できますが、生成に時間がかかることがあります。
 
