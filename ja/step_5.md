@@ -49,40 +49,40 @@ x, y, z = mc.player.getPos()
 mc.player.setPos(x, y+100, z)
 ```
 
-This will transport your player to 100 spaces in the air. This will mean you'll teleport to the middle of the sky and fall straight back down to where you started.
+これはあなたのアバターを空中の高さ100のところに運びます。これは、空の真ん中にテレポートして、あなたがこの世界を始めた場所に戻ることを意味しています。
 
-Try teleporting to somewhere else!
+別の場所にテレポートしてみてください！
 
-### Set block
+### ブロックを置く
 
-You can place a single block at a given set of coordinates with `mc.setBlock()`:
+`mc.setBlock()`を使用して、与えられた座標セットに1つのブロックを置くことができます。
 
 ```python
 x, y, z = mc.player.getPos()
 mc.setBlock(x+1, y, z, 1)
 ```
 
-Now a stone block should appear beside where you're standing. If it's not immediately in front of you it may be beside or behind you. Return to the Minecraft window and use the mouse to spin around on the spot until you see a grey block directly in front of you.
+あなたの立っている所の前に石ブロックが現れます。それがあなたのすぐ前になければ、それはあなたの横にあるかもしれません。Minecraftウィンドウに戻り、あなたの目の前に灰色のブロックが現れるまで、マウスを使ってその場で回転して見てください。
 
 ![](images/mcpi-setblock.png)
 
-The arguments passed to `set block` are `x`, `y`, `z` and `id`. The `(x, y, z)` refers to the position in the world (we specified one block away from where the player is standing with `x + 1`) and the `id` refers to the type of block we'd like to place. `1` is stone.
+`set block`に渡される引数は`x`、`y`、`z`、`id`です。`(x, y, z)`は世界の位置を指しています（プレイヤーが`x+1`で立っている場所から1ブロック離れて指定されています）。`id`は配置したいブロックのタイプを表します。`1`は石です。
 
-Other blocks you can try:
+あなたが試せる他のブロックの例
 
 ```
-Air:   0
-Grass: 2
-Dirt:  3
+空気:　0
+草:   2
+土:   3
 ```
 
-Now with the block in sight, try changing it to something else:
+ブロックが見えたら、別のものに変更してみてください。
 
 ```python
 mc.setBlock(x+1, y, z, 2)
 ```
 
-You should see the grey stone block change in front of your eyes!
+目の前に灰色の石ブロックの変化が見られるはずです！
 
 ![](images/mcpi-setblock2.png)
 
