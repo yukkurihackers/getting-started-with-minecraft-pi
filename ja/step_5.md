@@ -1,8 +1,8 @@
-## Use the Python programing interfece
+##Pythonプログラミングインターフェースを使用する
 
-With Minecraft running, and the world created, bring your focus away from the game by pressing the `Tab` key, which will free your mouse. Open Python 3 from the application menu and move the windows so they're side-by-side.
+Minecraftを起動して世界を新規作成したら、 `Tab` キーを押してマウスを解放します。アプリケーションメニューからPython3を開き、ウィンドウを左右に移動させます。
 
-You can either type commands directly into the Python window or create a file so you can save your code and run it again another time.
+コマンドを直接Python3ウィンドウに入力するか、ファイルを作成してコードを保存してもう一度実行することができます。
 
 If you want create a file, go to `File > New window` and `File > Save`. You'll probably want to save this in your home folder or a new project folder.
 
