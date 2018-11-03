@@ -16,36 +16,36 @@ Index
 - [Step9 What next?](ja/step_9.md)
 
 
-# Getting Started with Programming the Minecraft World
+# マインクラフト世界のプログラミングを始めよう
 
 ![](cover.png)
 
-Minecraft is a popular sandbox open world building game. A free version of Minecraft is available for the Raspberry Pi; it also comes with a programming interface. This means you can write commands and scripts in Python code to build things in the game automatically. It's a great way to learn Python!
+マインクラフトは、人気のある箱庭ーオープンワールドな構築ゲームです。ラズベリーパイには、フリー版のマインクラフトがあり、プログラミング・インターフェース（API）も付いて来ます。これは、すなわちPythonコードでコマンドとスクリプトを書いて、ゲームの中で物の構築を自動的にできるという事です。Pythonを学ぶのにはとても良い方法ですね！
 
 ![Minecraft Pi banner](images/minecraft-pi-banner.png)
 
-## Requirements
+## 必要なもの
 
-### Hardware
+### ハードウェア
 
-This resource requires no additional hardware besides a Raspberry Pi with a Raspbian SD card.
+この教材は、ラズベリーパイとラズビアンのSDカード以外には追加のハードウェアを必要としません。
 
-### Software
+### ソフトウェア
 
-Minecraft has been installed by default in Raspbian since September 2014.
+2014年9月以降、マインクラフトはラズビアンに最初からインストールされています。
 
-If you do not have it installed, or you need to test it works, see the [software installation](software.md) page.
+もし、インストールされていないなら、あるいはちゃんと動くかどうか試す必要があるときは、[ソフトウェアのインストール](software.md)のページを見てください。
 
-## The worksheet
+## ワークシート
 
-- [The worksheet](worksheet.md)
+- [ワークシート](worksheet.md)
 
-## Licence
+## ライセンス
 
-Unless otherwise specified, everything in this repository is covered by the following licence:
+他に規定ない限り、このリポジトリの中のものは全て以下のライセンスに従う：
 
-[![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+[![クリエイティブ・コモンズ・ライセンス](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
 
-***Minecraft Pi*** by the [Raspberry Pi Foundation](http://www.raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
+ [ラズベリーパイ財団](http://www.raspberrypi.org)による ***マインクラフト・パイ*** は、[クリエイティブ・コモンズ・表示 - 継承 4.0 国際ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja) のもと、ライセンスされる.
 
-Based on a work at https://github.com/raspberrypilearning/getting-started-with-minecraft-pi
+https://github.com/raspberrypilearning/getting-started-with-minecraft-pi の成果に基づく。
