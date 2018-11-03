@@ -162,5 +162,5 @@ mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, stone)
 
 ![](images/mcpi-setblocks.png)
 
-`setBlocks`関数でより大きな体積の直方体を作成できますが、生成に時間がかかることがあります。
+`setBlocks`関数でより大きな体積の直方体を作成できますが、生成に時間がかかることがあります！
 
