@@ -146,11 +146,11 @@ mc.setBlock(x, y, z, wool, 1)
 
 さらにいくつかの数字を入力してブロックの変化を見てみましょう！
 
-追加のパラメータを有する他のブロックは、木材（`17`）であるオーク、トウヒ、白樺や、背の高い草（`31`）である低木、草、シダ、さらに松明（`50`）は東、西、北、南を指します。 もっと。 詳細については、APIリファレンスを参照してください。[API reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) 
+追加のパラメータを有する他のブロックは、木材（`17`）であるオーク、トウヒ、白樺や、背の高い草（`31`）である低木、草、シダ、さらに松明（`50`）は東、西、北、南を指します。 もっと。 詳細については、[API reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) を参照してください。 
 
-### Set multiple blocks
+### 複数のブロックを設置する
 
-As well as setting a single block with `setBlock` you can fill in a volume of space in one go with `setBlocks`:
+`setBlock`を使用して1つのブロックを設置するだけでなく、`setBlocks`を使用して一度に多くの領域を埋めることができます。
 
 ```python
 stone = 1
@@ -158,9 +158,9 @@ x, y, z = mc.player.getPos()
 mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, stone)
 ```
 
-This will fill in a 10 x 10 x 10 cube of solid stone.
+このプログラムは、10×10×10の立方体の中を石で埋めます。
 
 ![](images/mcpi-setblocks.png)
 
-You can create bigger volumes with the `setBlocks` function but it may take longer to generate!
+`setBlocks`関数でより大きな体積の直方体を作成できますが、生成に時間がかかることがあります。
 
