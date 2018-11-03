@@ -1,6 +1,8 @@
-日本語への翻訳作業を行なっています。
+Code2Create.Clubで、日本語への翻訳作業を行なっています。
 
-Index
+Wikiもあるよ！　https://github.com/Naohiro2g/getting-started-with-minecraft-pi/wiki
+
+進捗確認　Index
 - [Step1 What you will make](ja/step_1.md)
 - [Step2 What you will need](ja/step_2.md)
 - [Step3 Getting Started with Minecraft Pi](ja/step_3.md)
@@ -10,7 +12,6 @@ Index
 - [Step7 Playing with TNT blocks](ja/step_7.md)
 - [Step8 Fun with flowing lava.](ja/step_8.md)
 - [Step9 What next?](ja/step_9.md)
-
 
 
 # Getting Started with Programming the Minecraft World
