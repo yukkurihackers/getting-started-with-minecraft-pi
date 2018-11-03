@@ -2,7 +2,9 @@ Code2Create.Clubで、日本語への翻訳作業を行なっています。
 
 Wikiもあるよ！　https://github.com/Naohiro2g/getting-started-with-minecraft-pi/wiki
 
-進捗確認　Index
+進捗確認サイト　　https://naohiro2g.github.io/getting-started-with-minecraft-pi/
+
+Index
 - [Step1 What you will make](ja/step_1.md)
 - [Step2 What you will need](ja/step_2.md)
 - [Step3 Getting Started with Minecraft Pi](ja/step_3.md)
