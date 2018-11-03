@@ -1,3 +1,21 @@
+Code2Create.Clubが日本語への翻訳作業を行なっています。
+
+[Wiki](https://github.com/Naohiro2g/getting-started-with-minecraft-pi/wiki)もあるよ！
+
+[進捗確認サイト](https://naohiro2g.github.io/getting-started-with-minecraft-pi/)
+
+Index
+- [Step1 What you will make](ja/step_1.md)
+- [Step2 What you will need](ja/step_2.md)
+- [Step3 Getting Started with Minecraft Pi](ja/step_3.md)
+- [Step4 Run Minecraft](ja/step_4.md)
+- [Step5 Use the Python programming interface](ja/step_5.md)
+- [Step6 Dropping blocks as you walk](ja/step_6.md)
+- [Step7 Playing with TNT blocks](ja/step_7.md)
+- [Step8 Fun with flowing lava.](ja/step_8.md)
+- [Step9 What next?](ja/step_9.md)
+
+
 # マインクラフト世界のプログラミングを始めよう
 
 ![](cover.png)
