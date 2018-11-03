@@ -146,7 +146,7 @@ mc.setBlock(x, y, z, wool, 1)
 
 さらにいくつかの数字を入力してブロックの変化を見てみましょう！
 
-(`17`): oak, spruce, birch, etc; tall grass (`31`): shrub, grass, fern; torch (`50`): pointing east, west, north, south; and more. See the [API reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) for full details.
+追加のパラメータを有する他のブロックは、木材（`17`）であるオーク、トウヒ、白樺や、背の高い草（`31`）である低木、草、シダ、さらに松明（`50`）は東、西、北、南を指します。 もっと。 詳細については、APIリファレンスを参照してください。[API reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html) 
 
 ### Set multiple blocks
 
