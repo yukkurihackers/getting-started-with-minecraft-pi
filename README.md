@@ -1,4 +1,4 @@
-Code2Create.Clubで、日本語への翻訳作業を行なっています。
+Code2Create.Clubが日本語への翻訳作業を行なっています。
 
 Wikiもあるよ！　https://github.com/Naohiro2g/getting-started-with-minecraft-pi/wiki
 
