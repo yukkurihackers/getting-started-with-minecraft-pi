@@ -1,12 +1,11 @@
-## What next?
+## 次は何？
 
-There's plenty you can do now you know your way around the Minecraft world and how to use the Python interface.
+あなたはマインクラフト世界とPythonインターフェースの使い方に詳しくなったので、できることがたくさんあります。
 
-### Networked game
+### ネットワーク接続ゲーム
 
-If multiple people connect Raspberry Pis to a local network, they can join the same Minecraft world and play together. Players can see each other in the Minecraft world.
+複数の人がラズベリーパイをローカルネットワークに接続すると、同じマインクラフト世界に参加して一緒に遊ぶことができます。プレイヤー達はマイクラフト世界の中でお互いを見ることができます。
 
-### API reference
+### APIリファレンス
 
-For a more extensive documentation of functions and a full list of block IDs see an API reference at [stuffaboutcode.com](http://www.stuffaboutcode.com/p/minecraft-api-reference.html).
-
+機能とブロックIDの全リストに関するより詳しい文書については、[stuffaboutcode.com](http://www.stuffaboutcode.com/p/minecraft-api-reference.html)にあるAPIリファレンスを見てください。
