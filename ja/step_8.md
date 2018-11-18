@@ -1,6 +1,6 @@
 ## 流れる溶岩で遊ぼう
 
-流れる溶岩は遊ぶと楽しくなるブロックです。
+流れる溶岩は楽しく遊べるブロックです
 
 ```python
 from mcpi.minecraft import Minecraft
@@ -38,7 +38,7 @@ mc.setBlock(x+3, y+5, z, air)
 
 ```
 
-`sleep`パラメータを調整して、様々な量の溶岩を流れるようにすることができます。
+`sleep` パラメータを調整して、様々な量の溶岩を流れるようにすることができます。
 
 ![lava](images/lava.png)
 
