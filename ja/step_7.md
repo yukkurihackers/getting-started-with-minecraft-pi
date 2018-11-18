@@ -1,6 +1,6 @@
-## Playing with TNT blocks
+## TNTで遊びましょう
 
-Another interesting block is TNT! To place a normal TNT block use:
+このTNTは実に興味深いです！ ここには、普通のTNTブロックがおかれます
 
 ```python
 tnt = 46
@@ -9,16 +9,16 @@ mc.setBlock(x, y, z, tnt)
 
 ![](images/mcpi-tnt.png)
 
-However, this TNT block is fairly boring. Try applying `data` as `1`:
+しかし、このブログはやはり退屈です.dateを1として適用してみてください
 
 ```python
 tnt = 46
 mc.setBlock(x, y, z, tnt, 1)
 ```
 
-Now use your sword and left click the TNT block: it will be activated and will explode in a matter of seconds!
+あなたの剣を使い、TNTブロックを左クリックしてください：それは起動され、数秒で爆発するでしょう。
 
-Now try making a big cube of TNT blocks!
+今度はTNTの大きな立方体を作ってみてください!
 
 ```python
 tnt = 46
@@ -27,7 +27,7 @@ mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, tnt, 1)
 
 ![](images/mcpi-tnt-blocks.png)
 
-Now you'll see a big cube full of TNT blocks. Go and activate one of the blocks and then run away to watch the show! It'll be really slow to render the graphics as so many things are changing at once.
+これで、TNTで出来た、大きなブロックが表示されます。 一つのブロックを起動して、爆発を見るために逃げてください！ 一度にたくさんのものが変化するので、グラフィックをレタリングするのが遅くなります。
 
 ![](images/mcpi-tnt-explode.png)
 
