@@ -1,6 +1,6 @@
 ## 流れる溶岩で遊ぼう
 
-流れる溶岩は楽しく遊べるブロックです
+楽しく遊べるブロックのひとつに流れる溶岩があります。
 
 ```python
 from mcpi.minecraft import Minecraft
