@@ -1,36 +1,35 @@
-## Run Minecraft
+## Minecraftを実行する
 
-To run Minecraft Pi, open it from the desktop menu or type `minecraft-pi` in the terminal.
+Minecraft Piを実行するには、デスクトップメニューから開くか、端末に `minecraft-pi` と入力します。
 
 ![](images/menu.png)
 
-When Minecraft Pi has loaded, click on **Start Game**, followed by **Create new**. You'll notice that the containing window is offset slightly. This means to drag the window around you have to grab the title bar behind the Minecraft window.
+Minecraft Piがロードされたら、** Start Game ** をクリックし、** New create ** をクリックします。ウィンドウを含むウィンドウがわずかにオフセットされていることがわかります。これは、ウィンドウをドラッグして動かすには、Minecraftウィンドウの背後にあるタイトルバーをつかむ必要があることを意味します。
 
 ![](images/mcpi-game.png)
 
-You are now in a game of Minecraft! Go walk around, hack things, and build things!
+あなたは今、Minecraftのゲームに入っています！ 歩き回り、物を破壊して物を作りましょう！
 
-Use the mouse to look around and use the following keys on the keyboard:
+マウスを使って見回したり、キーボードで以下のキーを使います：
 
-| Key          | Action               |
+| キー        　| アクション          |
 | :---:        | :-----:              |
-| W            | Forward              |
-| A            | Left                 |
-| S            | Backward             |
-| D            | Right                |
-| E            | Inventory            |
-| Space        | Jump                 |
-| Double Space | Fly / Fall           |
-| Esc          | Pause / Game menu    |
-| Tab          | Release mouse cursor |
+| W            | 前へ　　             |
+| A            | 左　                |
+| S            | 後ろへ　            |
+| D            | 右　　               |
+| E            | インベントリ   　　        |
+| Space        | ジャンプ    　　          |
+| Double Space | 飛ぶ / 落下する           |
+| Esc          | ポーズ / ゲームメニュー    |
+| Tab          |  マウスカーソルを開放　|
 
-You can select an item from the quick draw panel with the mouse's scroll wheel (or use the numbers on your keyboard), or press `E` and select something from the inventory.
+クイックドローパネルからマウスのスクロールホイールで項目を選択するか、キーボードの数字を使用するか、`E` を押してインベントリから項目を選択します。
 
 ![](images/mcpi-inventory.png)
 
-You can also double tap the space bar to fly into the air. You'll stop flying when you release the space bar, and if you double tap it again you'll fall back to the ground.
+スペースバーをダブルタップして空中に飛ぶこともできます。 スペースバーを放すと飛行を止め、再びダブルタップすると地面に落ちます。
 
 ![](images/mcpi-flying.png)
 
-With the sword in your hand, you can click on blocks in front of you to remove them (or to dig). With a block in your hand, you can use right click to place that block in front of you, or left click to remove a block.
-
+あなたの手に持っている剣で、あなたの前のブロックをクリックしてそれらを除去する（または掘る）ことができます。 あなたの手にブロックがある場合は、右クリックでそのブロックを手前に置くか、左クリックしてブロックを取り除くことができます。

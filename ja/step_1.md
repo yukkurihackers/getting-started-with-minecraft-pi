@@ -1,18 +1,18 @@
-## What you will make
-In this resource you will explore the virtual world of Minecraft Pi, the special edition of Minecraft made for Raspberry Pi.
+## あなたがこれから作るもの
 
-You will learn how to control the player, manually build with blocks and use the Python interface to manipulate the world around you.
+この教材の中で、あなたは、ラズベリーパイのために作られた特別版マインクラフトパイの仮想世界を探検します。
 
-## What you will learn
-By following this resource with your Raspberry Pi you will learn:
+プレイヤーをコントロールする方法、手動でブロックを構築する方法、Pythonインターフェースを使って周りの世界を操る方法をあなたは学びます。
 
-- How to access Minecraft Pi and create a new world
-- How to use the Python programming environment IDLE to connect to Minecraft Pi
-- How to use the Minecraft Python API to post text to the chat window, find the player's coordinates, teleport and build structures
-- How to use variables to store IDs for different types of blocks
-- Experimenting with placing different types of blocks with special attributes
+## あなたがこれから学ぶもの
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+ラズベリーパイと共に、この教材に沿って進む事であなたが学ぶのは：
 
-- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
+- マインクラフトパイを起動して新しい世界を作る方法
+- Pythonプログラミング環境IDLEを使ってマインクラフトパイに接続する方法
+- マインクラフト Python APIを使ってチャットウィンドウにテキストを投稿したり、プレイヤーの座標を知ったり、テレポートしたり、構造物を構築する方法。
+- 違うタイプのブロックのためのIDを変数に保存する方法。
+- 特別な属性を持つ違うタイプのブロックを配置する実験。
 
+この教材は、 [ラズベリーパイ デジタル工作カリキュラム] (https://www.raspberrypi.org/curriculum/)の以下の項目（creator x programming）からの要素をカバーします：
+- [基本的なプログラミング構成物を使い、シンプルなプログラムを創る](https://www.raspberrypi.org/curriculum/programming/creator)
