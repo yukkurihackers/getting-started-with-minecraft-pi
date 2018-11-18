@@ -1,8 +1,8 @@
-## Dropping blocks as you walk
+## 歩きながらブロックを落とす
 
-Now you know how to drop blocks, let's use our moving location to drop blocks when you walk.
+今度はブロックを落とす方法を学び移動するとブロックを落とすようにしましょう。
 
-The following code will drop a flower behind you wherever you walk:
+次のコードは、歩くとどこにでも花を落とします：
 
 ```python
 from mcpi.minecraft import Minecraft
@@ -18,17 +18,17 @@ while True:
     sleep(0.1)
 ```
 
-Now walk forward for a while and turn around to see the flowers you have left behind you.
+前方に歩いて、ふり返りあなたが後ろに残した花を見てください。
 
 ![](images/mcpi-flowers.png)
 
-Since we used a `while True` loop this will go on forever. To stop it, hit `Ctrl + C` in the Python window.
+whileループを使用しているので、これは永遠に続きます。 それを止めるには、PythonウィンドウでCtrl + Cキーを押します.
 
-Try flying through the air and see the flowers you leave in the sky:
+空を飛んで、あなたが空に残す花を見てみましょう：
 
 ![](images/mcpi-flowers-sky.png)
 
-What if we only wanted to drop flowers when the player walks on grass? We can use `getBlock` to find out what type a block is:
+プレイヤーが芝生の上を歩いているときに花を落としたければどうでしょうか？ getBlockを使用して、ブロックのタイプを調べることができます。
 
 ```python
 x, y, z = mc.player.getPos()  # player position (x, y, z)
@@ -36,7 +36,7 @@ this_block = mc.getBlock(x, y, z)  # block ID
 print(this_block)
 ```
 
-This tells you the location of the block you're standing *in* (this will be `0` - an air block). We want to know what type of block we're standing *on*. For this we subtract 1 from the `y` value and use `getBlock()` to determine what type of block we're standing on:
+これはあなたが立っているブロックの位置を示します（これは0になります - エアブロック） このために、y値から1を減算し、getBlock（）を使用して、どのタイプのブロックが立っているかを判別します。
 
 ```python
 x, y, z = mc.player.getPos()  # player position (x, y, z)
@@ -44,9 +44,9 @@ block_beneath = mc.getBlock(x, y-1, z)  # block ID
 print(block_beneath)
 ```
 
-This tells us the ID of the block the player is standing on.
+これは、プレイヤーが立っているブロックのIDを示します。
 
-Test this out by running a loop to print the block ID of whatever you're currently standing on:
+現在立っているもののブロックIDを出力するループを実行して、これをテストします。
 
 ```python
 while True:
@@ -57,7 +57,7 @@ while True:
 
 ![](images/blockbeneath.gif)
 
-We can use an `if` statement to choose whether or not we plant a flower:
+if文を使用して、花を植えるかどうかを選択できます。
 
 ```python
 grass = 2
@@ -72,7 +72,7 @@ while True:
     sleep(0.1)
 ```
 
-Perhaps next we could turn the tile we're standing on into grass if it isn't grass already:
+次のものは、下のブロックが芝生でない場合ブロックの上に芝生を生やすことができます。
 
 ```python
 if block_beneath == grass:
@@ -81,7 +81,6 @@ else:
     mc.setBlock(x, y-1, z, grass)
 ```
 
-Now we can walk forward and if we walk on grass, we'll leave a flower behind. If the next block is not grass, it turns into grass. When we turn around and walk back, we now leave a flower behind us.
-
+今草の上を歩くと、花を残します。 前のブロックが芝生でない場合、ブロックは芝生に変わります。 向きを変えて歩いていくと、後ろに花が残ります。
 ![](images/mcpi-flowers-grass.png)
 
